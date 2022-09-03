@@ -2,14 +2,7 @@ import config from './wdio.shared.local.appium.conf';
 
 // ============
 // Specs
-// ============
-config.specs = [
-    './tests/specs/**/browser*.spec.ts',
-];
-
-// ============
-// Capabilities
-// ============
+// 
 // For all capabilities please check
 // http://appium.io/docs/en/writing-running-appium/caps/#general-capabilities
 config.capabilities = [
